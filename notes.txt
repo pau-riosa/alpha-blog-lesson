@@ -1,0 +1,9 @@
+1. create a schema named accounts
+2. account schema has fields
+  2.1 first_name
+  2.2 middle_name
+  2.3 last_name
+  2.4 created_at
+  2.5 updated_at
+3. create a controller for account
+4. create a template for account
