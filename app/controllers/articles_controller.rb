@@ -15,7 +15,7 @@ class ArticlesController < ApplicationController
   def create
     @article = Article.new(article_params)
     if @article.save
-      flash[:notice] = "Article was created successfully."
+      flash[:notice] = "Article was created success."
       redirect_to @article
     else
       flash[:alert] = "Article was not created."
